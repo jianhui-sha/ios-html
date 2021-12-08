@@ -145,28 +145,28 @@
 </head>
 
 <body>
-  <div id="tips" class="tips">
+  <!-- <div id="tips" class="tips">
     <img id="safari" src="./img/iosDownTips.png">
   </div>
   <div class="logo_wrap">
     <img id="logo" src="./img/set_pic_about.png">
-  </div>
+  </div> -->
   <div class="version_wrap">
-    <img id="android" src="./img/download.png" style="display: inline-block;">
-    <img id="ios" src="./img/ios.png" style="display: inline-block;">
+    <!-- <img id="android" src="./img/download.png" style="display: inline-block;">
+    <img id="ios" src="./img/ios.png" style="display: inline-block;"> -->
     地图通
   </div>
-  <div class="qrcode_wrap">
+  <!-- <div class="qrcode_wrap">
     <img id="qrcode" src="./img/qrCode.png">
-  </div>
+  </div> -->
   <div class="btn_wrap">
     <button onclick="handleClick()">点击下载</button>
     <p id="browser-tip">或者点击右上角用浏览器下载安装</p>
     <p id="iosinfo"></p>
   </div>
-  <div id="weixin-tip">
+  <!-- <div id="weixin-tip">
     <p><img src="img/weixin_tip.png" alt="微信打开" /><span id="close" title="关闭" class="close"></span></p>
-  </div>
+  </div> -->
   <script>
     var is_weixin = (function () {
       return navigator.userAgent.toLowerCase().indexOf('micromessenger') !== -1
@@ -221,7 +221,7 @@
           // document.getElementById('tips').style.display = 'block'
           // return
         }
-        window.open('itms-services://?action=download-manifest&url=https://gitee.com/jianhuisha/ios/raw/master/test4.plist')
+        window.open('itms-services://?action=download-manifest&url=https://gitee.com/jianhuisha/ios/raw/master/ExportOptions.plist')
       }
     }
   </script>
